@@ -159,7 +159,6 @@ struct ContentView: View {
                 countries.shuffle()
                 correctAnswer = Int.random(in: 0..<answerRange)
                 if countriesCount < ContentView.numFlagsShownInit {
- //                   print("Archived Countries before shuffle \(archivedCountries)")
  //                   archivedCountries.shuffle()
  //                   print("Archived Countries after shuffle \(archivedCountries)")
                     countries.append(archivedCountries[countriesCount-1])
