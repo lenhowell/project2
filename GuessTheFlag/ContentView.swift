@@ -223,15 +223,6 @@ struct ContentView: View {
         exit(1)
     }
     
-/*    func initCountries() {
-        countries = []
-        print ("\(countries)")
-        for i in 0..<numCountries {
-            countries.append(ContentView.allCountries[i])
-        }
-        print ("\(countries)")
-    }
- */
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
